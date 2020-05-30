@@ -1,15 +1,16 @@
 {
   "files": {
+    "static/js/0.1f868e1f.chunk.js": "/teddy/static/js/0.1f868e1f.chunk.js",
     "main.css": "/teddy/static/css/main.44eed913.chunk.css",
-    "main.js": "/teddy/static/js/main.ba707e40.chunk.js",
-    "runtime~main.js": "/teddy/static/js/runtime~main.56e6b29f.js",
-    "static/js/2.38712435.chunk.js": "/teddy/static/js/2.38712435.chunk.js",
-    "static/js/3.5a7ad955.chunk.js": "/teddy/static/js/3.5a7ad955.chunk.js",
-    "static/js/4.d3aca256.chunk.js": "/teddy/static/js/4.d3aca256.chunk.js",
-    "static/js/5.e32a3ada.chunk.js": "/teddy/static/js/5.e32a3ada.chunk.js",
-    "static/js/6.ffcb7bc1.chunk.js": "/teddy/static/js/6.ffcb7bc1.chunk.js",
+    "main.js": "/teddy/static/js/main.7ab6ef82.chunk.js",
+    "runtime~main.js": "/teddy/static/js/runtime~main.ff382606.js",
+    "static/js/3.5676a506.chunk.js": "/teddy/static/js/3.5676a506.chunk.js",
+    "static/js/4.6f6f5165.chunk.js": "/teddy/static/js/4.6f6f5165.chunk.js",
+    "static/js/5.2e5ee50d.chunk.js": "/teddy/static/js/5.2e5ee50d.chunk.js",
+    "static/js/6.16af8251.chunk.js": "/teddy/static/js/6.16af8251.chunk.js",
+    "static/js/7.dc52e74b.chunk.js": "/teddy/static/js/7.dc52e74b.chunk.js",
     "index.html": "/teddy/index.html",
-    "precache-manifest.ff4330fcfe7027ace49b231a8edd1acb.js": "/teddy/precache-manifest.ff4330fcfe7027ace49b231a8edd1acb.js",
+    "precache-manifest.c72eb843f9ac6b70b2e45d0e03e311f6.js": "/teddy/precache-manifest.c72eb843f9ac6b70b2e45d0e03e311f6.js",
     "service-worker.js": "/teddy/service-worker.js",
     "static/media/1.png": "/teddy/static/media/1.07e121c5.png",
     "static/media/2.png": "/teddy/static/media/2.9c511df8.png",
@@ -42,6 +43,8 @@
     "static/media/house.svg": "/teddy/static/media/house.ed55622d.svg",
     "static/media/house4.png": "/teddy/static/media/house4.39b28772.png",
     "static/media/jam.svg": "/teddy/static/media/jam.84db2cf4.svg",
+    "static/media/looser.mp3": "/teddy/static/media/looser.01e081d4.mp3",
+    "static/media/looser.webp": "/teddy/static/media/looser.15a1aeb7.webp",
     "static/media/milk.svg": "/teddy/static/media/milk.16426bdb.svg",
     "static/media/mustard.svg": "/teddy/static/media/mustard.9c594fbb.svg",
     "static/media/onion.svg": "/teddy/static/media/onion.fb4880da.svg",
@@ -60,6 +63,8 @@
     "static/media/sun.svg": "/teddy/static/media/sun.eeadcd43.svg",
     "static/media/tomato.svg": "/teddy/static/media/tomato.4826181a.svg",
     "static/media/tyre3.svg": "/teddy/static/media/tyre3.9f618796.svg",
-    "static/media/watermelon.svg": "/teddy/static/media/watermelon.9b004dbc.svg"
+    "static/media/watermelon.svg": "/teddy/static/media/watermelon.9b004dbc.svg",
+    "static/media/winner.webp": "/teddy/static/media/winner.6df2cc08.webp",
+    "static/media/winner.mp3": "/teddy/static/media/winner.e517a878.mp3"
   }
 }

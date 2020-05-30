@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7051e0632b36d0cdc21a12eb47e1531a",
+    "revision": "c9707fe68ddcebf804c81fa7219bb8d8",
     "url": "/teddy/index.html"
   },
   {
-    "revision": "c092dcfaeefb4d227ee2",
+    "revision": "5e08372fb4b54ef1928b",
     "url": "/teddy/static/css/main.44eed913.chunk.css"
   },
   {
-    "revision": "4d1fb052535aa0bbc042",
-    "url": "/teddy/static/js/2.38712435.chunk.js"
+    "revision": "7190d7513ae28f879568",
+    "url": "/teddy/static/js/0.1f868e1f.chunk.js"
   },
   {
-    "revision": "00919b98ff4508d26a4b",
-    "url": "/teddy/static/js/3.5a7ad955.chunk.js"
+    "revision": "6fa006aa2866ce47ec5e",
+    "url": "/teddy/static/js/3.5676a506.chunk.js"
   },
   {
-    "revision": "e11d805dbe3c1507ac50",
-    "url": "/teddy/static/js/4.d3aca256.chunk.js"
+    "revision": "9bb9f1730a74c8256015",
+    "url": "/teddy/static/js/4.6f6f5165.chunk.js"
   },
   {
-    "revision": "1c3abaf567307158ac16",
-    "url": "/teddy/static/js/5.e32a3ada.chunk.js"
+    "revision": "93dc9e7ce70e52c5b654",
+    "url": "/teddy/static/js/5.2e5ee50d.chunk.js"
   },
   {
-    "revision": "784f4c9c1dcb24a9d7e9",
-    "url": "/teddy/static/js/6.ffcb7bc1.chunk.js"
+    "revision": "da0f84d90ed58e56d4a6",
+    "url": "/teddy/static/js/6.16af8251.chunk.js"
   },
   {
-    "revision": "c092dcfaeefb4d227ee2",
-    "url": "/teddy/static/js/main.ba707e40.chunk.js"
+    "revision": "2d9f58e94b2a5cfab4ce",
+    "url": "/teddy/static/js/7.dc52e74b.chunk.js"
   },
   {
-    "revision": "d6e6e803b4e976737e9e",
-    "url": "/teddy/static/js/runtime~main.56e6b29f.js"
+    "revision": "5e08372fb4b54ef1928b",
+    "url": "/teddy/static/js/main.7ab6ef82.chunk.js"
+  },
+  {
+    "revision": "d6fe9923464088799c9f",
+    "url": "/teddy/static/js/runtime~main.ff382606.js"
   },
   {
     "revision": "07e121c52b58be658fb0acf23c741558",
@@ -164,6 +168,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teddy/static/media/jam.84db2cf4.svg"
   },
   {
+    "revision": "01e081d4e69256b57ee5f0244da63c09",
+    "url": "/teddy/static/media/looser.01e081d4.mp3"
+  },
+  {
+    "revision": "15a1aeb7bc469a243faa411ccd8467d4",
+    "url": "/teddy/static/media/looser.15a1aeb7.webp"
+  },
+  {
     "revision": "16426bdb5f7bc5776a6df8ff63b2dff4",
     "url": "/teddy/static/media/milk.16426bdb.svg"
   },
@@ -238,5 +250,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b004dbc24d07b07f8fe89399f7811ea",
     "url": "/teddy/static/media/watermelon.9b004dbc.svg"
+  },
+  {
+    "revision": "6df2cc085d5101b15d2cbcc0d7981529",
+    "url": "/teddy/static/media/winner.6df2cc08.webp"
+  },
+  {
+    "revision": "e517a8780007c26d020ea230a731b67f",
+    "url": "/teddy/static/media/winner.e517a878.mp3"
   }
 ]);
