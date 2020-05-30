@@ -103,7 +103,7 @@ export default (props) => {
   return (
       <Github>
         <div>
-        <a href="http://github.com/pylnata" title="Star me on github" style={{zIndex:1000}}>
+        <a href="http://github.com/Amritesh" title="Star me on github" style={{zIndex:1000}}>
           <Eyes>
             <EyeLeft style={propsEye}>
               <Ball style={propsBall} />

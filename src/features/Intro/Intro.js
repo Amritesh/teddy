@@ -37,7 +37,7 @@ export default props => {
       </CarWithBubble>
       <Bottom>
         <div style={{display: "float"}}>
-          <img src={images["stars.svg"]} alt="github" style={{width: 20}} />Star me on <a href="http://github.com/pylnata/teddy">github</a>{" "}
+          <img src={images["stars.svg"]} alt="github" style={{width: 20}} />Star me on <a href="http://github.com/Amritesh/teddy">github</a>{" "}
         </div>
         <div style={{ fontSize: "1.7rem" }}>
           Icons from{" "}

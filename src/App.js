@@ -1,10 +1,8 @@
 import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { useTransition, animated } from "react-spring";
-
 import useRouter from "./hooks/useRouter";
 import Intro from "./features/Intro/Intro";
-
 import { ImagesProvider } from "./contexts/ImagesContext";
 
 const Shop = React.lazy(() => {
@@ -13,6 +11,10 @@ const Shop = React.lazy(() => {
 
 const Puzzle = React.lazy(() => {
   return import("./features/Puzzle/Puzzle");
+});
+
+const Money = React.lazy(() => {
+  return import("./features/Money/Money");
 });
 
 const App = props => {
@@ -29,6 +31,21 @@ const App = props => {
     <animated.div key={key} style={props}>
       <Suspense fallback={""}>
       <Switch location={item}>
+        <Route
+          path="/money"
+          exact
+          render={props => (
+            <ImagesProvider
+              r={require.context(
+                "./features/Money/images/",
+                true,
+                /\.(png|jpe?g|svg)$/
+              )}
+            >
+              <Money {...props} />
+            </ImagesProvider>
+          )}
+        />
         <Route
           path="/shop"
           exact
