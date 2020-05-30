@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60fa41b069a1f97257a70bb09607a8a0",
+    "revision": "7051e0632b36d0cdc21a12eb47e1531a",
     "url": "/teddy/index.html"
   },
   {
-    "revision": "14ad65459c736372a699",
+    "revision": "c092dcfaeefb4d227ee2",
     "url": "/teddy/static/css/main.44eed913.chunk.css"
   },
   {
-    "revision": "9f2f25de001b87757185",
-    "url": "/teddy/static/js/2.7a627ba3.chunk.js"
+    "revision": "4d1fb052535aa0bbc042",
+    "url": "/teddy/static/js/2.38712435.chunk.js"
   },
   {
-    "revision": "7895f891839d8c07b09e",
-    "url": "/teddy/static/js/3.124d1e59.chunk.js"
+    "revision": "00919b98ff4508d26a4b",
+    "url": "/teddy/static/js/3.5a7ad955.chunk.js"
   },
   {
-    "revision": "5049ad2fdde06f7aafdd",
-    "url": "/teddy/static/js/4.49916461.chunk.js"
+    "revision": "e11d805dbe3c1507ac50",
+    "url": "/teddy/static/js/4.d3aca256.chunk.js"
   },
   {
-    "revision": "e759b19b5703396e2943",
-    "url": "/teddy/static/js/5.c0b22d28.chunk.js"
+    "revision": "1c3abaf567307158ac16",
+    "url": "/teddy/static/js/5.e32a3ada.chunk.js"
   },
   {
-    "revision": "14ad65459c736372a699",
-    "url": "/teddy/static/js/main.6a63ee63.chunk.js"
+    "revision": "784f4c9c1dcb24a9d7e9",
+    "url": "/teddy/static/js/6.ffcb7bc1.chunk.js"
   },
   {
-    "revision": "2ed466a5e106b8ed3583",
-    "url": "/teddy/static/js/runtime~main.1944eca6.js"
+    "revision": "c092dcfaeefb4d227ee2",
+    "url": "/teddy/static/js/main.ba707e40.chunk.js"
+  },
+  {
+    "revision": "d6e6e803b4e976737e9e",
+    "url": "/teddy/static/js/runtime~main.56e6b29f.js"
   },
   {
     "revision": "07e121c52b58be658fb0acf23c741558",
