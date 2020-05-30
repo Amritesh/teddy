@@ -66,6 +66,7 @@ export default () => {
           {content}
           </div>
       </GameContainer>
+      <Nav type="next" to="/money" />
     </Game>
   );
 };

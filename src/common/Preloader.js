@@ -9,7 +9,7 @@ const Preloader = (props) => {
   // import and preload images
   useEffect(() => {
     const importedImages = {};
-    const r = require.context("../features/Intro/images/", false, /\.(png|jpe?g|svg)$/);
+    const r = require.context("../features/Intro/images/", false, /\.(png|jpe?g|svg|webp)$/);
     let i = 0;
     r.keys().forEach(item => {
       const importedImg = r(item);

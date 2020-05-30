@@ -39,7 +39,7 @@ const App = props => {
               r={require.context(
                 "./features/Money/images/",
                 true,
-                /\.(png|jpe?g|svg)$/
+                /\.(png|jpe?g|svg|webp)$/
               )}
             >
               <Money {...props} />
@@ -54,7 +54,7 @@ const App = props => {
               r={require.context(
                 "./features/Shop/images/",
                 true,
-                /\.(png|jpe?g|svg)$/
+                /\.(png|jpe?g|svg|webp)$/
               )}
             >
               <Shop {...props} />
@@ -69,7 +69,7 @@ const App = props => {
               r={require.context(
                 "./features/Puzzle/images/",
                 false,
-                /\.(png|jpe?g|svg)$/
+                /\.(png|jpe?g|svg|webp)$/
               )}
             >
               <Puzzle {...props} />
@@ -85,7 +85,7 @@ const App = props => {
               r={require.context(
                 "./features/Intro/images/",
                 false,
-                /\.(png|jpe?g|svg)$/
+                /\.(png|jpe?g|svg|webp)$/
               )}
             >
               <Intro {...props} />
