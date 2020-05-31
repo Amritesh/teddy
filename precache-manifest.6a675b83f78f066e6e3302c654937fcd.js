@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1d2be3531603637306b7672800c1729",
+    "revision": "7917a829c88aa904e88b16911530e217",
     "url": "/teddy/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teddy/static/js/4.d44cd2bb.chunk.js"
   },
   {
-    "revision": "5feebb9142dc3f04fc34",
-    "url": "/teddy/static/js/5.39dc7842.chunk.js"
+    "revision": "2a3beed681925bcffec1",
+    "url": "/teddy/static/js/5.a0e922c7.chunk.js"
   },
   {
     "revision": "080040d19440f8409342",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teddy/static/js/main.38fcd2af.chunk.js"
   },
   {
-    "revision": "0d1d2ba783da85bed53e",
-    "url": "/teddy/static/js/runtime~main.dc6936a7.js"
+    "revision": "db9ccce5c2aa7d85c6c1",
+    "url": "/teddy/static/js/runtime~main.c0346e79.js"
   },
   {
     "revision": "07e121c52b58be658fb0acf23c741558",
