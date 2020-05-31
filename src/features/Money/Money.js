@@ -21,8 +21,7 @@ export default () => {
   }, []);
 
   useEffect(() => {
-    let question = parseInt(Math.random()*20)*5;
-    setQuestion(question);
+    reset();
   },[]);
 
   const winnerRef = React.useRef();
@@ -31,13 +30,19 @@ export default () => {
   const add = event => {
     const image = event.target.closest("img");
     let imageValue = parseInt(image.getAttribute('value'));
-    setAnswer(imageValue + answer);
-    setonTable([...onTable, image.getAttribute('alt')]);
-    if(imageValue + answer > question){
-        looserRef.current.play();
-    }
-    else if(imageValue + answer === question){
-        winnerRef.current.play();
+    let imageAlt = image.getAttribute('alt');
+    let lessThanThree = onTable.filter(function(value){
+      return value === imageAlt;
+    }).length < 3;
+    if(lessThanThree){
+      setAnswer(imageValue + answer);
+      setonTable([...onTable, imageAlt]);
+      if(imageValue + answer > question){
+          looserRef.current.play();
+      }
+      else if(imageValue + answer === question){
+          winnerRef.current.play();
+      }
     }
 
   };
@@ -51,8 +56,8 @@ export default () => {
     setonTable([...onTable]);
   }
 
-  const reset = event=> {
-    let question = parseInt(Math.random()*20)*5;
+  const reset = ()=> {
+    let question = parseInt(Math.random()*300);
     setQuestion(question)
     setAnswer(0);
     setonTable([]);
@@ -63,13 +68,17 @@ export default () => {
       <Nav type="back" to="/puzzle" />
       <GameContainer>
           <div className="options">
-            <img src={images["5.jpg"]} value="5" alt="5.jpg" onClick={add}/>
+            <img src={images["1.png"]} value="1" alt="1.png" onClick={add}/>
+            <img src={images["2.png"]} value="2" alt="2.png" onClick={add}/>
+            <img src={images["5.png"]} value="5" alt="5.png" onClick={add}/>
             <img src={images["10.jpg"]} value="10" alt="10.jpg" onClick={add}/>
             <img src={images["20.jpg"]} value="20" alt="20.jpg" onClick={add}/>
             <img src={images["50.jpg"]} value="50" alt="50.jpg" onClick={add}/>
+            <img src={images["100.jpg"]} value="100" alt="100.jpg" onClick={add}/>
+            <img src={images["200.jpg"]} value="200" alt="200.jpg" onClick={add}/>
           </div>
           <p>Please give me Rs {question}</p>
-          <div className="table"> {onTable.map((item,i)=>(<img key={i} onClick={remove} src={images[item]} alt={item} value={item.split()[0]}/>))}</div>
+          <div className="table"> {onTable.map((item,i)=>(<img key={i} onClick={remove} src={images[item]} alt={item} value={item.split('.')[0]}/>))}</div>
           <p>The total value is {answer}</p>
           {question === answer? (<WinContainer>
                 <img src={images["winner.webp"]} alt="reset" onClick={reset}/>

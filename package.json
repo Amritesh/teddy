@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.0.0"
+    "gh-pages": "^3.0.0",
+    "private-module": "git+ssh://git@github.com:Amritesh/teddy.git"
   }
 }
