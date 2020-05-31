@@ -42,6 +42,7 @@ export default () => {
       }
       else if(imageValue + answer === question){
           winnerRef.current.play();
+          setTimeout(reset, 3000);
       }
     }
 
