@@ -1,51 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9707fe68ddcebf804c81fa7219bb8d8",
+    "revision": "f1d2be3531603637306b7672800c1729",
     "url": "/teddy/index.html"
   },
   {
-    "revision": "5e08372fb4b54ef1928b",
+    "revision": "e58da6139c7c949905f5",
     "url": "/teddy/static/css/main.44eed913.chunk.css"
   },
   {
-    "revision": "7190d7513ae28f879568",
-    "url": "/teddy/static/js/0.1f868e1f.chunk.js"
+    "revision": "2a12a6bca48b8af3f733",
+    "url": "/teddy/static/js/0.c1c08c78.chunk.js"
   },
   {
     "revision": "6fa006aa2866ce47ec5e",
     "url": "/teddy/static/js/3.5676a506.chunk.js"
   },
   {
-    "revision": "9bb9f1730a74c8256015",
-    "url": "/teddy/static/js/4.6f6f5165.chunk.js"
+    "revision": "8d7496e1c9b807bda26c",
+    "url": "/teddy/static/js/4.d44cd2bb.chunk.js"
   },
   {
-    "revision": "93dc9e7ce70e52c5b654",
-    "url": "/teddy/static/js/5.2e5ee50d.chunk.js"
+    "revision": "5feebb9142dc3f04fc34",
+    "url": "/teddy/static/js/5.39dc7842.chunk.js"
   },
   {
-    "revision": "da0f84d90ed58e56d4a6",
-    "url": "/teddy/static/js/6.16af8251.chunk.js"
+    "revision": "080040d19440f8409342",
+    "url": "/teddy/static/js/6.9cecb52b.chunk.js"
   },
   {
-    "revision": "2d9f58e94b2a5cfab4ce",
-    "url": "/teddy/static/js/7.dc52e74b.chunk.js"
+    "revision": "972aafecdcfff86fc087",
+    "url": "/teddy/static/js/7.0cb579c5.chunk.js"
   },
   {
-    "revision": "5e08372fb4b54ef1928b",
-    "url": "/teddy/static/js/main.7ab6ef82.chunk.js"
+    "revision": "e58da6139c7c949905f5",
+    "url": "/teddy/static/js/main.38fcd2af.chunk.js"
   },
   {
-    "revision": "d6fe9923464088799c9f",
-    "url": "/teddy/static/js/runtime~main.ff382606.js"
+    "revision": "0d1d2ba783da85bed53e",
+    "url": "/teddy/static/js/runtime~main.dc6936a7.js"
   },
   {
     "revision": "07e121c52b58be658fb0acf23c741558",
     "url": "/teddy/static/media/1.07e121c5.png"
   },
   {
+    "revision": "bca3e2abdc982419b08cce98ba8d0739",
+    "url": "/teddy/static/media/1.bca3e2ab.png"
+  },
+  {
     "revision": "9c511df87ea8083e3ed775c36df87ccb",
     "url": "/teddy/static/media/2.9c511df8.png"
+  },
+  {
+    "revision": "bf17eb6087bd1f81463d595119ffd00e",
+    "url": "/teddy/static/media/2.bf17eb60.png"
   },
   {
     "revision": "751ecb7ce981a85f1a5e72e168aca30c",
@@ -54,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ef2a68531bb64c43a21d1268a98319b",
     "url": "/teddy/static/media/4.7ef2a685.png"
+  },
+  {
+    "revision": "6895a1b49ef559b2cda027ba849aa04c",
+    "url": "/teddy/static/media/5.6895a1b4.png"
   },
   {
     "revision": "96037b82cd18cfb7b4ce188d97d8a771",
