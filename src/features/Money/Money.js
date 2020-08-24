@@ -4,8 +4,8 @@ import { Game, Nav } from "../../common/styles";
 import { GameContainer, WinContainer } from "./styles";
 // import DraggableList from "./components/DraggableList";
 import { useImagesContext } from "../../contexts/ImagesContext";
-import winnerSound from './sound/winner.mp3';
-import looserSound from './sound/looser.mp3';
+import winnerSound from '../../sound/winner.mp3';
+import looserSound from '../../sound/looser.mp3';
 
 export default () => {
   const { images } = useImagesContext();

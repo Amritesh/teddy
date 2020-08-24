@@ -17,6 +17,10 @@ const Money = React.lazy(() => {
   return import("./features/Money/Money");
 });
 
+const NPAT = React.lazy(() => {
+  return import("./features/NPAT/NPAT");
+});
+
 const App = props => {
   const { location } = useRouter();
   const transitions = useTransition(location, location => location.pathname, {
@@ -73,6 +77,21 @@ const App = props => {
               )}
             >
               <Puzzle {...props} />
+            </ImagesProvider>
+          )}
+        />
+        <Route
+          path="/NPAT"
+          exact
+          render={props => (
+            <ImagesProvider
+              r={require.context(
+                "./features/NPAT/images/",
+                false,
+                /\.(png|jpe?g|svg|webp)$/
+              )}
+            >
+              <NPAT {...props} />
             </ImagesProvider>
           )}
         />

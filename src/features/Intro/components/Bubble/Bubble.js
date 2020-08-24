@@ -56,6 +56,7 @@ export default props => {
         <Game click={()=>selectGame('shop')} img={images["shop-game.svg"]} />
         <Game click={()=>selectGame('puzzle')} img={images["puzzle-game.svg"]} />
         <Game click={()=>selectGame('money')} img={images["money-game.jpg"]} />
+        <Game click={()=>selectGame('NPAT')} img={images["NPAT.jpeg"]} />
       </Games>
     </Dialog>
   );
